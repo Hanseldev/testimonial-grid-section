@@ -42,6 +42,8 @@
     --MARGIN-B: 1rem;    
     --MARGIN-B-S: 0.5rem;    
     --MARGIN-B-L: 2rem;    
+
+    --BOX-SHADOW: 5px 5px 20px var(--GRAY);
 }
 
 /* || GENERAL STYLES */
@@ -240,15 +242,18 @@ a:focus {
         /* height: fit-content; */
         grid-column: 4;
         grid-row: 1 / span 2;
+        box-shadow: var(--BOX-SHADOW);
     }
     .second {
         /* height: fit-content; */
         grid-column: 1;
         grid-row: 2;
+        box-shadow: var(--BOX-SHADOW);
     }
     .deep-blue {
         /* height: fit-content; */
         grid-column: 2 / span 2;
+        box-shadow: var(--BOX-SHADOW);
     }
 
 }
