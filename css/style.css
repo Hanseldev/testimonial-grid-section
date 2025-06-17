@@ -104,7 +104,7 @@ a:focus {
     padding-inline: var(--PADDING);
     margin-block-end: var(--MARGIN-B-L);
     border-radius: var(--BORDER-RADIUS);
-    /* aspect-ratio: 16 / 9; */
+    
 }
 
 .testimonial__person {
@@ -126,9 +126,7 @@ a:focus {
     font-weight: 600;
 }
 
-.testimonial__status {
-    /* font-weight: 500; */
-}
+
 
 .testimonial__title {
     color: var(--GRAY-200);
@@ -146,6 +144,9 @@ a:focus {
 
 .purple {
     background-color: var(--PURPLE);
+    background-image: url('/images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 right 50px;
 }
 
 .purple img {
