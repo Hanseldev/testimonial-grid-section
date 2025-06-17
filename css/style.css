@@ -144,7 +144,7 @@ a:focus {
 
 .purple {
     background-color: var(--PURPLE);
-    background-image: url('/images/bg-pattern-quotation.svg');
+    background-image: url('../images/bg-pattern-quotation.svg');
     background-repeat: no-repeat;
     background-position: top 0 right 50px;
 }
